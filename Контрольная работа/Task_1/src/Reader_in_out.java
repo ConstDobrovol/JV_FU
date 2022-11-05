@@ -1,4 +1,4 @@
-public class ReaderDo {
+public class Reader_in_out {
     public static void main(String[] args) {
         Reader reader_7 = new Reader("Добровольский К. П.", 7, "Прикладная Информатика", "07.06.2003", "+7902819453");
         Reader reader_17 = new Reader("Сафронов И.М", 17, "Прикладная математика и информатика", "08.05.1999", "+4(950)572-19-95");
