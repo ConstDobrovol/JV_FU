@@ -21,7 +21,7 @@ public class ReaderDo {
     }
 
     private static void printBooks(Book_info[] bookInfos) {
-        System.out.println("Список книг:");
+        System.out.println("List_of_Books:");
         for (Book_info bookInfo : bookInfos) {
             System.out.println(bookInfo.getInfo());
         }
@@ -29,7 +29,7 @@ public class ReaderDo {
     }
 
     private static void printReaders(Reader[] readers) {
-        System.out.println("Список читателей:");
+        System.out.println("List_of_Readers");
         for (Reader reader : readers) {
             System.out.println( reader.getInfo());
         }
