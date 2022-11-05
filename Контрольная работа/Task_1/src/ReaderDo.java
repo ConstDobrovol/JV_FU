@@ -5,25 +5,25 @@ public class ReaderDo {
         Reader reader_3 = new Reader("Позднякова Е.Л.", 3, "Менеджмент", "01.01.2003", "+79602358779");
         Reader[] readers = {reader_1, reader_2, reader_3};
 
-        Book book_1 = new Book("Война и мир 1 том", "Л. Н. Толстой");
-        Book book_2 = new Book("Преступление и наказание", "Ф. М. Достоеввский");
-        Book book_3 = new Book("Евгений Онегин", "А. С. Пушкин");
-        Book[] books = {book_1, book_2, book_3};
+        Book_info book_info_1 = new Book_info("Война и мир 1 том", "Л. Н. Толстой");
+        Book_info book_info_2 = new Book_info("Преступление и наказание", "Ф. М. Достоеввский");
+        Book_info book_info_3 = new Book_info("Евгений Онегин", "А. С. Пушкин");
+        Book_info[] bookInfos = {book_info_1, book_info_2, book_info_3};
 
         printReaders(readers);
-        printBooks(books);
+        printBooks(bookInfos);
 
         reader_1.takeBook(3);
         System.out.println();
         reader_2.takeBook("Пиковая дама, Сердца в Атлантиде");
-        reader_3.takeBook(book_1, book_2, book_3);
+        reader_3.takeBook(book_info_1, book_info_2, book_info_3);
 
     }
 
-    private static void printBooks(Book[] books) {
+    private static void printBooks(Book_info[] bookInfos) {
         System.out.println("Список книг:");
-        for (Book book : books) {
-            System.out.println(book.getInfo());
+        for (Book_info bookInfo : bookInfos) {
+            System.out.println(bookInfo.getInfo());
         }
         System.out.println();
     }

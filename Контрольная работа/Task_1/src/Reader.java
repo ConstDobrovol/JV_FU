@@ -68,10 +68,10 @@ public class Reader {
         System.out.println();
     }
 
-    public void takeBook(Book... books) {//кто какие книги и с каким автором
+    public void takeBook(Book_info... bookInfos) {//кто какие книги и с каким автором
         System.out.println(this.SNP + " взял/-ла следующие книги:");
-        for (Book book : books) {
-            System.out.println(book.getName_book() + ", автор - " + book.getAuthor_book());
+        for (Book_info bookInfo : bookInfos) {
+            System.out.println(bookInfo.getName_book() + ", автор - " + bookInfo.getAuthor_book());
         }
         System.out.println();
     }
@@ -88,10 +88,10 @@ public class Reader {
         System.out.println();
     }
 
-    public void returnBook(Book... books) {//кто, какие книги и с каким автором вернул
+    public void returnBook(Book_info... bookInfos) {//кто, какие книги и с каким автором вернул
         System.out.println(this.SNP + " вернул/-ла следующие книги:");
-        for (Book book : books) {
-            System.out.println(book.getName_book() + ", автор - " + book.getAuthor_book());
+        for (Book_info bookInfo : bookInfos) {
+            System.out.println(bookInfo.getName_book() + ", автор - " + bookInfo.getAuthor_book());
         }
         System.out.println();
     }
