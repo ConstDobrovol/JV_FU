@@ -1,22 +1,22 @@
 public class ReaderDo {
     public static void main(String[] args) {
-        Reader reader_1 = new Reader("Кондрашов С. К.", 1, "Прикладная Информатика", "23.12.2000", "+79685632121");
-        Reader reader_2 = new Reader("Власов М.Д.", 2, "Информационная Безопасность", "08.05.1999", "+79358621415");
-        Reader reader_3 = new Reader("Позднякова Е.Л.", 3, "Менеджмент", "01.01.2003", "+79602358779");
-        Reader[] readers = {reader_1, reader_2, reader_3};
+        Reader reader_7 = new Reader("Добровольский К. П.", 7, "Прикладная Информатика", "07.06.2003", "+7902819453");
+        Reader reader_17 = new Reader("Сафронов И.М", 17, "Прикладная математика и информатика", "08.05.1999", "+4(950)572-19-95");
+        Reader reader_15 = new Reader("Петров В. В.", 15, "Менеджмент", "01.01.2003", "+00(839)614-33-08");
+        Reader[] readers = {reader_7, reader_17, reader_15};
 
-        Book_info book_info_1 = new Book_info("Война и мир 1 том", "Л. Н. Толстой");
-        Book_info book_info_2 = new Book_info("Преступление и наказание", "Ф. М. Достоеввский");
-        Book_info book_info_3 = new Book_info("Евгений Онегин", "А. С. Пушкин");
+        Book_info book_info_1 = new Book_info("451 градус по Фаренгейту", "Рэй Брэдбери");
+        Book_info book_info_2 = new Book_info("Мартин Иден", "Джек Лондон");
+        Book_info book_info_3 = new Book_info("Титан", "Теодор Драйзер");
         Book_info[] bookInfos = {book_info_1, book_info_2, book_info_3};
 
         printReaders(readers);
         printBooks(bookInfos);
 
-        reader_1.takeBook(3);
+        reader_7.takeBook(3);
         System.out.println();
-        reader_2.takeBook("Пиковая дама, Сердца в Атлантиде");
-        reader_3.takeBook(book_info_1, book_info_2, book_info_3);
+        reader_17.takeBook("Финансист");
+        reader_15.takeBook(book_info_1, book_info_2, book_info_3);
 
     }
 
