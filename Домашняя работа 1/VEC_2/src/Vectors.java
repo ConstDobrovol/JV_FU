@@ -35,7 +35,7 @@ public class Vectors {
             return vectors;
         }
         public String toString() {
-            return "Вектор{" +"x=" + x +", y=" + y +", z=" + z +'}';
+            return "Вектор{" +"x:" + x +", y:" + y +", z:" + z +'}';
         }
     }
     public static void main(String[] args) {
