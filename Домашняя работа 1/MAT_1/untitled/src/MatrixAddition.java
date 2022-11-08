@@ -1,4 +1,3 @@
-//Сложение двух матриц
 public class MatrixAddition {
     public static void main(String[] args) {
         int[][] One = new int[2][3];
