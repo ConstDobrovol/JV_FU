@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JV_FU.iml" filepath="$PROJECT_DIR$/.idea/JV_FU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Домашняя работа 1(от 10 сен)/MAT_1/MAT_1.iml" filepath="$PROJECT_DIR$/Домашняя работа 1(от 10 сен)/MAT_1/MAT_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Контрольная работа (5 ноября)/Task_1/Task_1.iml" filepath="$PROJECT_DIR$/Контрольная работа (5 ноября)/Task_1/Task_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Контрольная работа (5 ноября)/Task_2/Task_2.iml" filepath="$PROJECT_DIR$/Контрольная работа (5 ноября)/Task_2/Task_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Домашняя работа 1(от 10 сен)/VEC_2/VEC_2.iml" filepath="$PROJECT_DIR$/Домашняя работа 1(от 10 сен)/VEC_2/VEC_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Домашняя работа 2(от 24 сен)/Домашняя работа 2(от 24 сен).iml" filepath="$PROJECT_DIR$/Домашняя работа 2(от 24 сен)/Домашняя работа 2(от 24 сен).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Домашняя работа 3( от 8 окт)/Домашняя работа 3( от 8 окт).iml" filepath="$PROJECT_DIR$/Домашняя работа 3( от 8 окт)/Домашняя работа 3( от 8 окт).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Семинар (от 22 окт)/Семинар (от 22 окт).iml" filepath="$PROJECT_DIR$/Семинар (от 22 окт)/Семинар (от 22 окт).iml" />
+    </modules>
+  </component>
+</project>
