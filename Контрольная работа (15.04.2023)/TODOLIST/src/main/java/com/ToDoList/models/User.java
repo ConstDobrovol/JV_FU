@@ -26,32 +26,8 @@ public class User {
     private String birthday;
     private String creation_date;
     private String update_date;
-
+    //Пользователь – Задание – один ко многим
     @JsonIgnore
     @OneToMany(mappedBy = "user")
     private Set<Task> tasks;
-
-    public void updateClient(User user){
-        if(user.login != null){
-            this.login = user.login;
-        }
-        if(user.lastName != null){
-            this.lastName = user.lastName;
-        }
-        if(user.firstName != null){
-            this.firstName = user.firstName;
-        }
-        if(user.middleName != null){
-            this.middleName = user.middleName;
-        }
-        if(user.birthday != null){
-            this.birthday = user.birthday;
-        }
-        if(user.creation_date != null){
-            this.creation_date = user.creation_date;
-        }
-        if(user.update_date != null){
-            this.update_date = user.update_date;
-        }
-    }
 }

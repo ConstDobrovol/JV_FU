@@ -25,7 +25,7 @@ public class Task {
     private String user;
     private String creation_date;
     private String update_date;
-
+    // Задание – Категория – многие ко многим
     @ManyToOne
     @JoinColumn(name="user", nullable = false, insertable = false, updatable = false)
     @JsonIgnore
