@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.JavaFX.controllers.TrainController">
+   <children>
+      <SplitPane dividerPositions="0.14950634696755993" prefHeight="600.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Label layoutX="52.0" layoutY="32.0" prefHeight="38.0" prefWidth="52.0" text="Train List" />
+                  <Button fx:id="toAddTrain" layoutX="47.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#ToAddTrain" prefHeight="38.0" prefWidth="62.0" text="Add" />
+                  <Button fx:id="toBack" layoutX="52.0" layoutY="544.0" mnemonicParsing="false" onAction="#ToBack" prefHeight="25.0" prefWidth="52.0" text="Back" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="tableTrain" prefHeight="158.0" prefWidth="891.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="Name" prefWidth="332.0" text="Name" />
+                      <TableColumn fx:id="Type" prefWidth="357.0" text="Type" />
+                        <TableColumn fx:id="Wagon" prefWidth="79.0" text="Wagon" />
+                        <TableColumn fx:id="Seats" prefWidth="77.0" text="Seats" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

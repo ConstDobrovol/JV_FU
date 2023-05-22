@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+            prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.JavaFX.controllers.MenuController">
+    <children>
+        <TableView fx:id="tableFutureTrip" layoutY="25.0" prefHeight="568.0" prefWidth="887.0"
+                   AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+                   AnchorPane.topAnchor="25.0">
+            <columns>
+                <TableColumn fx:id="From" prefWidth="128.0" text="Откуда"/>
+                <TableColumn fx:id="To" prefWidth="126.0" text="Куда"/>
+                <TableColumn fx:id="Departure_date" prefWidth="129.0" text="Дата отправления"/>
+                <TableColumn fx:id="Departure_time" prefWidth="143.0" text="Время отправления"/>
+                <TableColumn fx:id="Arrival_date" prefWidth="92.0" text="Дата приезда"/>
+                <TableColumn fx:id="Arrival_time" prefWidth="104.0" text="Время приезда"/>
+                <TableColumn fx:id="Seats" prefWidth="123.0" text="Кол-во мест поезде"/>
+                <TableColumn fx:id="Free_seats" prefWidth="150.0" text="Кол-во свободных мест"/>
+            </columns>
+        </TableView>
+        <Button fx:id="ButtonAddTrip" layoutY="2.0" mnemonicParsing="false" onAction="#toAddTrip" prefHeight="25.0"
+                prefWidth="137.0" text="Добавить новый рейс"/>
+        <Button fx:id="ButtonListTrain" layoutX="137.0" layoutY="2.0" mnemonicParsing="false" onAction="#toListTrain"
+                prefHeight="25.0" prefWidth="105.0" text="Список поездов"/>
+    </children>
+</AnchorPane>
