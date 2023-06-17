@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.JavaFX.controllers.MenuController">
+    <children>
+        <TableView fx:id="tableFutureTrip" layoutY="25.0" prefHeight="568.0" prefWidth="887.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+            <columns>
+                <TableColumn fx:id="From" prefWidth="686.6666564941406" text="Список файлов" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
